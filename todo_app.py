@@ -67,7 +67,7 @@ async def root():
 @todo.get("/todo", tags=["To-Dos"])
 async def get_todos():
     """
-    Get Todo endpoint
+    Get To-do endpoint
      Show tasks in detailed form
      Tagging under : To-Dos
 
@@ -83,7 +83,7 @@ async def get_todos():
 @todo.post("/todo", tags=["To-Dos"])
 async def create_todo(task: Task) -> dict:
     """
-        Create Todo endpoint
+        Create To-do endpoint
          Creates a new Task
          Input a Task object and saves it to mysql
          Tagging under : To-Dos
