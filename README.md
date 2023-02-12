@@ -28,13 +28,13 @@
 
 - *auth* app
     - | Name        |    Type     |                           Description                            | 
-          |:-----------:|:----------------------------------------------------------------:|:------------|
+      |:-----------:|:----------------------------------------------------------------:|:------------|
       | title       |   string    |                        Title of the task                         |
       | description |   string    |                  Description detail of the task                  |
       | status      |   string    | Status of the task {``not started``, ``ongoing``, ``completed``} |
 - *todo* app
     - | Name      |  Type   | Description          | 
-          |:-------:|:--------:|:------------|
+      |:-------:|:--------:|:------------|
       | username  | string  | Username of the user |
       | passsword | string  | Password of the user |
 
